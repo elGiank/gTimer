@@ -1,0 +1,42 @@
+<script src="gTimer.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript"> 
+function iniciar(){
+    gTimer.init({
+        waitTime: 10000,
+        onFinishFunction: function() {
+			$('#contenedor').append( "<p>Terminó el contador :)!</p>" );
+		}
+    });
+    
+    gTimer.start();
+}
+
+function parar(){
+    gTimer.stop();
+}
+
+function continuar(){
+    gTimer.resume();
+}
+
+function terminar(){
+    gTimer.finish();
+}
+</script> 
+
+<input type="button" value="iniciar" onclick="javascript:iniciar()" >
+    
+<input type="button" value="detener" onclick="javascript:parar()" >
+        
+<input type="button" value="continuar" onclick="javascript:continuar()" >
+    
+<input type="button" value="terminar" onclick="javascript:terminar()" >
+
+
+<div id="contenedor">
+	
+</div>
+
