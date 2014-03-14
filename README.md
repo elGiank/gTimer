@@ -41,6 +41,7 @@ Estos son los métodos disponibles
 +	gTimer.clear();
 
 
+
 ****
 
 
