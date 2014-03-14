@@ -44,7 +44,7 @@ Estos son los métodos disponibles
 ****
 
 
-###  Paramtros de inicialización
+###  Parámetros de inicialización
 
 
 **"waitTime"** - *tiempo de duración del contador, en milisegundos*
