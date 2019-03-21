@@ -1,4 +1,4 @@
-The MIT License (MIT)
+﻿The MIT License (MIT) - GK Change
 
 Copyright (c) 2014 Gian Carlo Vegas Ruidías
 
