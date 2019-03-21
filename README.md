@@ -1,7 +1,7 @@
-gTimer
+﻿gTimer
 ======
 
-### Contar hacia atras es simple :)!
+### Contar hacia atras es simple :)!...Angela
 
 gTimer es una librería javascript para hacer conteos regresivos (countdowns) simples. Una vez iniciado el contador 
 se puede detener y luego continuar, terminar antes de tiempo o cancelar. Al finalizar el conteo se ejecuta una función.
